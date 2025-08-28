@@ -1,0 +1,82 @@
+/* Basic Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+/* Header Styling */
+.header {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Sections */
+.section {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #ddd; /* Box Model: border */
+    background-color: white;
+}
+
+/* Feature Cards with Box Model */
+.features {
+    display: flex;
+    gap: 20px; /* Space between cards */
+}
+
+.feature-card {
+    flex: 1;
+    padding: 15px; /* Box Model: padding */
+    border: 2px solid #4caf50; /* Box Model: border */
+    margin: 10px; /* Box Model: margin */
+    background-color: #e8f5e9;
+    text-align: center;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px; /* Box Model: padding */
+    border: 2px solid #4caf50;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
